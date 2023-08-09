@@ -1,0 +1,249 @@
+/** @format */
+
+#root {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1600px !important;
+}
+
+html {
+  ::selection {
+    background-color: #1aa37a;
+    color: #fff;
+  }
+
+  img {
+    user-select: none;
+  }
+
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+
+    @media (max-width: 992px) {
+      height: 0;
+    }
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(209, 209, 209);
+    display: inline-block;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #1aa37a;
+    border-radius: 0;
+  }
+}
+
+.Register {
+  .register_logo {
+    margin-top: 45px;
+    margin-left: 135px;
+
+    @media (max-width: 992px) {
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .register_box {
+    height: 900px;
+    display: flex;
+    align-items: center;
+  }
+  .register_form {
+    width: 100%;
+    padding: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fafafa;
+
+    .register_btn {
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 35px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: #ffcf23;
+      display: flex;
+      height: 50px;
+      padding: 10px 30px;
+      align-items: center;
+      gap: 250px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      background: #000;
+    }
+
+    .register_h {
+      color: #000;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .register_p {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: #808080;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .register_input {
+      width: 100%;
+      margin-bottom: 30px;
+      input {
+        border-bottom: 1px solid #ffcf23 !important;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: #fafafa;
+      }
+    }
+
+    .register_checkbox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .checkbox_p {
+        margin-left: 10px;
+        color: #7f7f7f;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+.Login {
+  .register_logo {
+    margin-top: 45px;
+    margin-left: 135px;
+
+    @media (max-width: 992px) {
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .register_box {
+    height: 900px;
+    display: flex;
+    align-items: center;
+  }
+  .register_form {
+    width: 100%;
+    padding: 45px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 485px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #fafafa;
+
+    .register_btn {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      color: #ffcf23;
+      display: flex;
+      height: 50px;
+      padding: 10px 30px;
+      align-items: center;
+      gap: 250px;
+      flex-shrink: 0;
+      border-radius: 10px;
+      background: #000;
+    }
+
+    .register_h {
+      color: #000;
+      font-family: Poppins;
+      font-size: 35px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .register_p {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: #808080;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .login_input {
+      margin-bottom: 35px !important;
+      width: 100%;
+
+      input {
+        border-bottom: 1px solid #ffcf23 !important;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: #fafafa;
+      }
+    }
+    .to_register {
+      cursor: pointer;
+      color: #5f5e5e;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+    }
+
+    .login_checkbox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .checkbox_p {
+        margin-left: 10px;
+        color: #7f7f7f;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+  }
+}
