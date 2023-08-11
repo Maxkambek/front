@@ -1,4 +1,3 @@
-/** @format */
 
 import React from "react";
 
@@ -15,7 +14,7 @@ const LoginPage = () => {
           <div className="col-lg-4 ">
             <img src="/img/loginpage.svg" className="w-100" alt="" />
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-4">
             <form className="register_form" action="">
               <div className="register_h">Tizimga kirish</div>
               <div className="register_p">

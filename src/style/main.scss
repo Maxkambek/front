@@ -40,6 +40,46 @@ html {
   }
 }
 
+.Navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  .nav_box_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar_btn {
+      border-radius: 50.4px;
+      cursor: pointer;
+      border: 0.992px solid #000;
+      display: flex;
+      width: 120px;
+      height: 35px;
+      padding: 2.975px 14.877px;
+      justify-content: center;
+      align-items: center;
+      gap: 3.967px;
+      flex-shrink: 0;
+    }
+  }
+  .nav_box_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav_item {
+      cursor: pointer;
+      color: #000;
+      font-family: Mark Pro;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
+
 .Register {
   .register_logo {
     margin-top: 45px;
@@ -244,6 +284,124 @@ html {
         font-weight: 400;
         line-height: normal;
       }
+    }
+  }
+}
+
+.Page404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1024px;
+}
+
+.Header {
+  margin-top: 200px;
+  .header_h {
+    color: #000;
+    font-family: Mark Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    span {
+      color: #ffcf23;
+      font-family: Mark Pro;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      letter-spacing: 0.6px;
+    }
+  }
+  .header_img_1 {
+    margin-right: 60px;
+    width: 200px;
+    height: 330px;
+    flex-shrink: 0;
+  }
+  .header_img_2 {
+    width: 300px;
+    height: 330px;
+    flex-shrink: 0;
+  }
+  .header_p {
+    margin-top: 20px;
+    color: #000;
+    font-family: Mark Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+    letter-spacing: 0.4px;
+  }
+  .header_btn {
+    margin-top: 50px;
+    display: flex;
+    width: 196px;
+    height: 50px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #000;
+    color: #ffcf23;
+    text-align: center;
+    font-family: Mark Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+.Courses {
+  margin-top: 100px;
+  .courses_h {
+    color: #000;
+    font-family: Mark Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px; /* 87.5% */
+    letter-spacing: 1px;
+  }
+  .courses_p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: #000;
+    font-family: Mark Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 140% */
+    letter-spacing: 0.625px;
+  }
+  .course_box {
+    
+    padding: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    background: #b9ddff;
+
+    .course_box_text {
+      color: #000;
+      font-family: Mark Pro;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 136.364% */
+      letter-spacing: 0.55px;
+      width: 150px;
+    }
+    .course_box_img {
     }
   }
 }
